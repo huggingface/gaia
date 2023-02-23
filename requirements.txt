@@ -1,0 +1,8 @@
+datasets
+torch
+tokenizers
+pyserini
+faiss-cpu
+jupyterlab
+nltk
+ipywidgets
