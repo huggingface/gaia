@@ -8,14 +8,13 @@ from bigscience_pii_detect_redact import run_pii
 from pyserini.analysis import Analyzer
 from pyserini.search.lucene import LuceneSearcher
 
-# from pyserini.search.lucene.querybuilder import JTerm, get_phrase_query
 
 MAX_DOCS = 5
 
 index_dirs = {
-    "laion": "/mnt/disks/looking_glass_storage/index/laion2B-en-index/dedup/",
-    "c4": "/mnt/disks/looking_glass_storage/index/segmented-c4-en-index/",
-    "pile": "/mnt/disks/looking_glass_storage/index/dedup_pile_indices/",
+    "laion": "/home/piktus_huggingface_co/index/laion2B-en-index/dedup/",
+    "c4": "/home/piktus_huggingface_co/index/segmented-c4-en-index/",
+    "pile": "/home/piktus_huggingface_co/index/dedup_pile_indices/",
 }
 
 
