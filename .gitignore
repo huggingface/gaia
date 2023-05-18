@@ -130,3 +130,7 @@ dmypy.json
 
 # VSCode
 *.code-workspace
+
+# GAIA
+/shards/*
+/indexes/*
